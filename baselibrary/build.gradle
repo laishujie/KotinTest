@@ -1,0 +1,72 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    api 'com.android.support:appcompat-v7:27.1.1'
+    api 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    api "org.jetbrains.anko:anko:$anko_version"
+
+    api "com.google.dagger:dagger:$dagger"
+    kapt "com.google.dagger:dagger-compiler:$dagger"
+
+    // RxKotlin and RxAndroid
+    api("io.reactivex.rxjava2:rxkotlin:$rx_kotlin_version") {
+        exclude module: 'rxjava'
+    }
+    api "io.reactivex.rxjava2:rxandroid:${rx_android_version}"
+    //Retrofit
+    api "com.squareup.okhttp3:okhttp:${ok_http_version}"
+    api("com.squareup.retrofit2:retrofit:${retrofit_version}") {
+        exclude module: 'okhttp'
+    }
+    api("com.squareup.okhttp3:logging-interceptor:${ok_http_version}") {
+        exclude module: 'okhttp'
+    }
+
+    //移除部分的东西
+    api("com.squareup.retrofit2:converter-gson:${retrofit_version}") {
+        exclude module: 'retrofit'
+    }
+
+    api("com.squareup.retrofit2:adapter-rxjava2:${retrofit_version}") {
+        exclude module: 'retrofit'
+        exclude module: 'rxjava'
+    }
+
+    api 'com.orhanobut:logger:2.2.0'
+
+    api 'org.greenrobot:greendao:3.2.2' // add library
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BEGIN * 常用距离值 -->
+    <dimen name="dist_1px">1px</dimen>
+    <dimen name="dist_2px">2px</dimen>
+    <dimen name="dist_0">0dp</dimen>
+    <dimen name="dist_0_3">0.3dp</dimen>
+    <dimen name="dist_1">1dp</dimen>
+    <dimen name="dist_2">2dp</dimen>
+    <dimen name="dist_3">3dp</dimen>
+    <dimen name="dist_4">4dp</dimen>
+    <dimen name="dist_5">5dp</dimen>
+    <dimen name="dist_6">6dp</dimen>
+    <dimen name="dist_7">7dp</dimen>
+    <dimen name="dist_8">8dp</dimen>
+    <dimen name="dist_9">9dp</dimen>
+    <dimen name="dist_10">10dp</dimen>
+    <dimen name="dist_11">11dp</dimen>
+    <dimen name="dist_12">12dp</dimen>
+    <dimen name="dist_13">13dp</dimen>
+    <dimen name="dist_14">14dp</dimen>
+    <dimen name="dist_15">15dp</dimen>
+    <dimen name="dist_16">16dp</dimen>
+    <dimen name="dist_17">17dp</dimen>
+    <dimen name="dist_18">18dp</dimen>
+    <dimen name="dist_20">20dp</dimen>
+    <dimen name="dist_21">21dp</dimen>
+    <dimen name="dist_22">22dp</dimen>
+    <dimen name="dist_23">23dp</dimen>
+    <dimen name="dist_24">24dp</dimen>
+    <dimen name="dist_25">25dp</dimen>
+    <dimen name="dist_26">26dp</dimen>
+    <dimen name="dist_27">27dp</dimen>
+    <dimen name="dist_30">30dp</dimen>
+    <dimen name="dist_32">32dp</dimen>
+    <dimen name="dist_35">35dp</dimen>
+    <dimen name="dist_36">36dp</dimen>
+    <dimen name="dist_38">38dp</dimen>
+    <dimen name="dist_40">40dp</dimen>
+    <dimen name="dist_41">41dp</dimen>
+    <dimen name="dist_42">42dp</dimen>
+    <dimen name="dist_43">43dp</dimen>
+    <dimen name="dist_44">44dp</dimen>
+    <dimen name="dist_45">45dp</dimen>
+    <dimen name="dist_48">48dp</dimen>
+    <dimen name="dist_50">50dp</dimen>
+    <dimen name="dist_52">52dp</dimen>
+    <dimen name="dist_53">53dp</dimen>
+    <dimen name="dist_55">55dp</dimen>
+    <dimen name="dist_57">57dp</dimen>
+    <dimen name="dist_59">59dp</dimen>
+    <dimen name="dist_60">60dp</dimen>
+    <dimen name="dist_64">64dp</dimen>
+    <dimen name="dist_65">65dp</dimen>
+    <dimen name="dist_70">70dp</dimen>
+    <dimen name="dist_75">75dp</dimen>
+    <dimen name="dist_80">80dp</dimen>
+    <dimen name="dist_82">82dp</dimen>
+    <dimen name="dist_85">85dp</dimen>
+    <dimen name="dist_88">88dp</dimen>
+    <dimen name="dist_90">90dp</dimen>
+    <dimen name="dist_100">100dp</dimen>
+    <dimen name="dist_105">105dp</dimen>
+    <dimen name="dist_110">110dp</dimen>
+    <dimen name="dist_115">115dp</dimen>
+    <dimen name="dist_120">120dp</dimen>
+    <dimen name="dist_123">123dp</dimen>
+    <dimen name="dist_125">125dp</dimen>
+    <dimen name="dist_127">127dp</dimen>
+    <dimen name="dist_130">130dp</dimen>
+    <dimen name="dist_135">135dp</dimen>
+    <dimen name="dist_140">140dp</dimen>
+    <dimen name="dist_145">145dp</dimen>
+    <dimen name="dist_150">150dp</dimen>
+    <dimen name="dist_154">154dp</dimen>
+    <dimen name="dist_160">160dp</dimen>
+    <dimen name="dist_170">170dp</dimen>
+    <dimen name="dist_180">180dp</dimen>
+    <dimen name="dist_190">190dp</dimen>
+    <dimen name="dist_195">195dp</dimen>
+    <dimen name="dist_200">200dp</dimen>
+    <dimen name="dist_210">210dp</dimen>
+    <dimen name="dist_218">218dp</dimen>
+    <dimen name="dist_220">220dp</dimen>
+    <dimen name="dist_230">230dp</dimen>
+    <dimen name="dist_240">240dp</dimen>
+    <dimen name="dist_250">250dp</dimen>
+    <dimen name="dist_255">255dp</dimen>
+    <dimen name="dist_260">260dp</dimen>
+    <dimen name="dist_270">270dp</dimen>
+    <dimen name="dist_290">290dp</dimen>
+    <dimen name="dist_300">300dp</dimen>
+    <dimen name="dist_315">315dp</dimen>
+    <dimen name="dist_330">330dp</dimen>
+    <dimen name="dist_415">415dp</dimen>
+
+
+    <!-- END * 常用距离值 -->
+
+    <!-- BEGIN * 常用字体大小 -->
+    <dimen name="textSize_bill_big_text">24sp</dimen>
+    <dimen name="textSize_main_title">24sp</dimen>
+
+
+    <dimen name="textSize_big_btn">20sp</dimen>
+    <dimen name="textSize_title">18sp</dimen>
+    <dimen name="textSize_detail_content">18sp</dimen>
+    <dimen name="textSize_content">16sp</dimen>
+    <dimen name="textSize_caption">15sp</dimen>
+    <dimen name="textSize_small">12sp</dimen>
+    <dimen name="textSize_edit_budget">13sp</dimen>
+    <dimen name="textSize_main_tab">10sp</dimen>
+    <dimen name="textSize_budget_remainder">10sp</dimen>
+    <dimen name="textSize_mine_num">24sp</dimen>
+    <dimen name="textSize_sp14">14sp</dimen>
+
+
+</resources>
